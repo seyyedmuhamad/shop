@@ -3,7 +3,7 @@
         "target": "ES2018",
         "module": "CommonJS",
         "strict": true,
-        "rootDir": "./src",
+        "rootDir": "src",
         "outDir": "build",
         "baseUrl": "./",
         "removeComments": true,
