@@ -1,13 +1,11 @@
 import React from 'react'
 import './App.css'
-import Products from './components/menu/products/Products'
-import SideBar from './components/partials/SideBar'
+import Panel from './components/panel/panel'
 
 function App () {
   return (
-    <div className="">
-      <SideBar></SideBar>
-      <Products />
+    <div className="" dir="rtl">
+      <Panel/>
     </div>
   )
 }
